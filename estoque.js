@@ -7,5 +7,10 @@ let estoque={
         'maca': 2,
         'banana': 3
     }
-
 };
+
+function getEstoque(){
+    return structuredClone(estoque);
+}
+
+export{getEstoque};
